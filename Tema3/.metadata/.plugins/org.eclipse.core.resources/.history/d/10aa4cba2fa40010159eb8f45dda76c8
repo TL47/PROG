@@ -1,0 +1,25 @@
+package pack;
+
+import java.util.*;
+
+public class AA3_17 {
+
+	public static void main(String[] args) {
+		/*
+		 *  Para dos números dados, a y b, es posible buscar el máximo común divisor (el número
+		 *  más grande que divide a ambos) mediante un algoritmo ineficiente pero sencillo: desde
+		 *  el menor de a y b, ir buscando, de forma decreciente, el primer número que divide a ambos
+		 *  simultáneamente. Realiza un programa que calcule el máximo común divisor de dos
+		 *  números.
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		System.out.println("Introduce el primer número: ");
+		a = sc.nextInt();
+		System.out.println("Introduce el segundo número: ");
+		b  
+
+	}
+
+}

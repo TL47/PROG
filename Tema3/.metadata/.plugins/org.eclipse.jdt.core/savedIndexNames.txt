@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+/home/usuario/Escritorio/PROGRAMACIÓN CASA-20250929T063548Z-1-001./Tema3/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1962995574.index
+1919757167.index
+3960061644.index
+90840057.index
+2567467902.index
+2601422426.index

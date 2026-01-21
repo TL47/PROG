@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pack.AP3_12&apos; to &apos;AA3_12&apos;&#x0A;- Original project: &apos;Tema3&apos;&#x0A;- Original element: &apos;pack.AP3_12&apos;&#x0A;- Renamed element: &apos;pack.AA3_12&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AP3_12&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pack{AP3_12.java[AP3_12" matchStrategy="1" name="AA3_12" qualified="false" references="true" similarDeclarations="false" stamp="1759307559583" textual="false" version="1.0"/>
+</session>

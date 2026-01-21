@@ -1,0 +1,102 @@
+package pack;
+
+import java.util.*;
+
+public class examenT5 {
+	
+	// Ejercicio 3
+	
+	static int[][] rellenar(int[][] notas) {
+		Arrays.fill(notas, 10);
+		return notas;
+	}
+	
+	static void sumaTotal(int[][] notas) {
+		int suma = 0;
+		int suma1 = 0;
+		for (int i = 0; i < notas.length; i++) {
+			for (int j = 0; j < notas[i].length; j++) {
+				suma += notas [i][0];
+				suma1 += notas [i][j + 1];
+				if (suma > suma1) {
+					suma1 = 0;
+				}
+				if (suma < suma1) {
+					System.out.println("La suma max es de: " + suma1);
+				}
+				if (suma > suma1) {
+					System.out.println("La suma max es de: " + suma);
+				}
+			}
+		}
+	}
+	
+	static int[][] intercambio(int[][] notas){
+		for (int i = 0; i < notas.length; i++) {
+			for (int j = 0; j < notas[i].length; j++) {
+				if (j % 2 == 0) {
+					notas[i][j + 1];
+				}
+			}
+			
+			return notas;
+		}
+		
+		int[][] intercambio = intercambio(notas);
+		
+		for (int i = 0; i < intercambio.length; i++) {
+			for (int j = 0; j < intercambio[i].length; j++) {
+				System.out.println("Matriz cambiada " + intercambio[i][j] + "\t");
+			}
+			System.out.println();
+		}
+			
+	}
+	
+	static void aprobados(int [][] notas) {
+		int aprobados = 0;
+		for (int i = 0; i < notas.length; i++) {
+			if (notas[i] >= 5 && notas[i + 1] >= 5) {
+				aprobados++;
+			}
+			for (int j = 0; j < notas[i].length; j++) {
+				notas[i][j];
+			}
+		}
+		
+		System.out.println("El número de aprobados es: " + aprobados);
+	}
+		
+
+	public static void main(String[] args) {
+		// Ejercicio 3
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Dime el número de alumnos");
+		int n = sc.nextInt();
+		System.out.println("Dime el número de asignaturas");
+		int m = sc.nextInt();
+		
+		if (n < 0 || m < 0) {
+			System.out.println("El número de alumnos o asignaturas no puede ser inferior a 0");
+		}
+		
+		int[][] notas = new int [n][m];
+		int[][] resultado = rellenar(notas);
+		rellenar = notas;
+		
+		for (int i = 0; i < resultado.length; i++) {
+			for (int j = 0; j < resultado[i].length; j++) {
+				System.out.println("Matriz original " + resultado[i][j] + "\t");
+			}
+			System.out.println();
+		}
+		
+		System.out.println("Número de alumnos: " + n);
+		System.out.println("Número de asignaturas: " + m);
+		sumaTotal(notas);
+		aprobados(notas);
+		
+	}
+
+}

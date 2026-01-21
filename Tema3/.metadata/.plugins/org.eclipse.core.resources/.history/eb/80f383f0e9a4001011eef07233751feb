@@ -1,0 +1,29 @@
+package pack;
+
+import java.util.*;
+
+public class AA3_18 {
+
+	public static void main(String[] args) {
+		/*
+		 *  De forma similar a la Actividad de aplicación 3.17, implementa un algoritmo que calcule
+		 *  el mínimo común múltiplo de dos números dados.
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		int a, b, mcm = 0;
+		boolean fuera = false;
+		System.out.println("Introduce el primer número: ");
+		a = sc.nextInt();
+		System.out.println("Introduce el segundo número: ");
+		b = sc.nextInt();
+
+		for (int i = 2; i <= a || i <= b; i++) {
+			if (a % 2 == 0 && b % 2 == 0) {
+				mcm = i;
+			}
+		}
+		System.out.println("El mínimo común múltiplo es: " + mcm);
+	}
+
+}

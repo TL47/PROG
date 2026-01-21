@@ -1,0 +1,14 @@
+Scanner sc new Scanner (System.in);
+System.out.print ("Introduzca un número:");
+int n = sc.nextInt();
+System.out.printin("--Antes de llamar a la función--");
+Ediciones Paraninfo 
+Ediciones Paraninfo
+FORMÁTICA Y COMUNICACIONES 4. FUNCIONES
+eco (n); //invocamos la función
+System.out.println("--Después de 1lamar a la función--");
+//La función lo único que hace es mostrar un mensaje repetido mediante un bucle
+static void eco(int a) { //el parámetro no tiene por qué llamarse como en la
+//llamada
+for (int 1 0; 1 <a; 1++)
+System.out.println("Eco...");

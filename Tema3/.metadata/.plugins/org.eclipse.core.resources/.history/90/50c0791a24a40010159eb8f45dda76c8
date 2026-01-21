@@ -1,0 +1,10 @@
+package pack;
+
+public class piramideVacia_T3 {
+
+	public static void main(String[] args) {
+		// Pirámide Vacía
+		
+	}
+
+}
