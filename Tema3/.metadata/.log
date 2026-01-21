@@ -8806,3 +8806,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY ch.qos.logback.classic 1 0 2026-01-21 12:39:49.878
 !MESSAGE Logback config file: /home/usuario/Escritorio/PROG/Tema3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-01-21 12:45:35.359
+!MESSAGE The workspace will exit with unsaved changes in this session.
