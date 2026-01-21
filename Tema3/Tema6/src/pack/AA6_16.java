@@ -1,6 +1,6 @@
 package pack;
 
-public class AA6_14 {
+public class AA6_16 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
