@@ -56,6 +56,31 @@ public class AA6_14 {
 		}
 		System.out.println(end);
 	}
+	
+	static String[] mostrar(String[] diccionario) {
+		String ini = "", ini2 = "";
+		String[] ordenado = new String[diccionario.length];
+		
+		for (int i = 0; i < diccionario.length; i++) {
+			for (int j = 0; j < diccionario.length; j++) {
+				String actual = diccionario[i];
+				String temp = diccionario[i + 1];
+				int indice = actual.indexOf(':');
+				int indice2 = temp.indexOf(':');
+				ini = actual.substring(0, indice);
+				ini2 = temp.substring(0, indice2);
+				int comparar = ini.compareToIgnoreCase(ini2);
+				if (comparar > 0) {
+					ordenado[i] = ini;
+					ordenado[i + 1] = ini2;
+				} else {
+					ordenado[i] = ini2;
+					ordenado[i + 1] = ini;
+				}
+			}
+		}		
+		return ordenado;
+	}
 
 	public static void main(String[] args) {
 		/*
@@ -83,7 +108,7 @@ public class AA6_14 {
 					System.out.println();
 				}
 				case 3 -> {
-					System.out.println("Vista completa de los contactos: " + Arrays.toString(diccionario));
+					diccionario = mostrar(diccionario);
 					System.out.println();
 				}
 			}

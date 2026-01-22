@@ -8809,3 +8809,19 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.resources 2 10035 2026-01-21 12:45:35.359
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2026-01-22 10:42:10.564 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-22 10:42:16.687
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-01-22 10:42:19.157
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-22 10:42:19.699
+!MESSAGE Logback config file: /home/usuario/Escritorio/PROG/Tema3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
