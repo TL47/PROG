@@ -11,6 +11,11 @@ public class AA6_16 {
 		 * 'e' por '€', la 'i' por '1', etcétera.
 		 */
 		
+		Scanner sc = new Scanner(System.in);
+		String[] alfabeto = new String[27];
+		String[] afbtCambio = new String[alfabeto.length];
+		System.out.println("Introduce una palabra: ");
+		String palabra = sc.nextLine();
 		
 
 	}
