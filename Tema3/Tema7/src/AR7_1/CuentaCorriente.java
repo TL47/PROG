@@ -18,7 +18,7 @@ public class CuentaCorriente {
         operacionPosible = true;
         } else { //no hay saldo disponible
             System.out.println ("No hay dinero suficiente");
-            operacionPosible false;
+            operacionPosible = false;
         }
         return (operacionPosible);
     }

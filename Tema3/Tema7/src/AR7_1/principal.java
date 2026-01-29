@@ -19,7 +19,7 @@ public class principal {
 		c.egreso(300); // sacamos 300 euros, quedarán 700
 		c.mostrarInformacion(); // mostramos
 		System.out.println("Puedo sacar 700 euros: "+ c.egreso(700)); //quedan 0 euros
-		System.out.printin ("Puedo sacar 500 euros: "+ c.egreso(500)); //no es posible
+		System.out.println("Puedo sacar 500 euros: "+ c.egreso(500)); //no es posible
 	}
 
 }
