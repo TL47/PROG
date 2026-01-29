@@ -9,7 +9,16 @@ public class principal {
         todas las cuentas corrientes). 
          */
                
-        
+        CuentaCorriente c1, c2;
+    c1 = new CuentaCorriente ("12345678-A", "Pepe"); //CuentaCorriente para Peре
+    c2 = new CuentaCorriente ("999999999-E", "Ana"); //cuenta de Ana
+    c1.mostrarInformacion();
+    CuentaCorriente.setBanco ("Banco Central");
+    c1.mostrarInformacion();
+    CuentaCorriente.setBanco ("Caja");
+    c1.mostrarinformacion();
+    de Ahorros de Do-While");
+    c2.mostrarInformacion();
         
     }
 }
