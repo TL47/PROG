@@ -6,11 +6,11 @@ public class CuentaCorriente {
     double saldo; //efectivo disponible en la cuenta
     //Los parámetros de entrada: nombre y dni, ocultan a los atributos de la clase
     //con el mismo identificador. Para acceder a ellos hay que utilizar this.
-    // CuentaCorriente(String dni, String nombre) { //constructor
-    //     this.dni = dni; //DNI pasado como parámetro
-    //     this.nombre = nombre; //nombre pasado como parámetro
-    //     saldo = 0; //saldo inicial a cero
-    // }
+    CuentaCorriente(String dni, String nombre) { //constructor
+        this.dni = dni; //DNI pasado como parámetro
+        this.nombre = nombre; //nombre pasado como parámetro
+        saldo = 0; //saldo inicial a cero
+    }
     boolean egreso (double cant) { //sacar dinero de la cuenta corriente
         boolean operacionPosible;
         if (saldo> cant) { //s1 disponemos de saldo suficiente
@@ -29,11 +29,6 @@ public class CuentaCorriente {
         System.out.println("Nombre: " + nombre);
         System.out.println("DNI: " + dni);
         System.out.println("Saldo: " + saldo + " €");
-    }
-    CuentaCorriente(String dni, String nombre) { //constructor
-        this.dni = dni; //DNI pasado como parámetro
-        this.nombre = nombre; //nombre pasado como parámetro
-        saldo = 0; //asignamos el saldo por defecto
     }
     CuentaCorriente (String dni, double saldo) { //constructor
         this.dni = dni;
